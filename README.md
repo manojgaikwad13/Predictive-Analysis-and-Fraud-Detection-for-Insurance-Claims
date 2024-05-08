@@ -1,5 +1,6 @@
 # <p align="center"> Capstone-Project-on-Insurance-Claims </p>
 
+# <p align="center">![image](https://github.com/manojgaikwad13/Capstone-Project-on-Insurance-Claims/assets/96239993/70b59c6c-3693-4015-a3e2-2bcfb5e48f69)</p>
 
 
 ## Overview
