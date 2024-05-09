@@ -5,7 +5,11 @@
 
 ## Overview
 
-Machine learning in insurance claim analysis involves employing algorithms to analyze claim data. These algorithms detect fraudulent claims by identifying irregular patterns and behaviors. They also assess risk levels associated with claims, predict claim severity, and estimate claim frequency based on historical data and relevant factors. By leveraging machine learning, insurers can make data-driven decisions, improving efficiency, reducing costs, and effectively managing risk. This enables insurers to streamline the claims process, detect fraudulent activities, and allocate resources more efficiently, ultimately benefiting both insurance companies and policyholders.
+Machine learning in insurance claim analysis involves employing algorithms to analyze claim data. 
+These algorithms detect fraudulent claims by identifying irregular patterns and behaviors. 
+They also assess risk levels associated with claims, predict claim severity, and estimate claim frequency based on historical data and relevant factors. 
+By leveraging machine learning, insurers can make data-driven decisions, improving efficiency, reducing costs, and effectively managing risk. 
+This enables insurers to streamline the claims process, detect fraudulent activities, and allocate resources more efficiently, ultimately benefiting both insurance companies and policyholders.
 
 
 ### Features 
