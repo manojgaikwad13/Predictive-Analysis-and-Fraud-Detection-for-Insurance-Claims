@@ -31,13 +31,11 @@ This enables insurers to streamline the claims process, detect fraudulent activi
 
 ## Balancing an unbalanced dataset:
 ```py
-#So, we can do Undersampling technique to balance the datasets otherwise As you can see, this model is only predicting 0, which means it’s completely ignoring the minority class in favor of the majority class.
-df_majority = sample[sample.Attack == 0]
-df_minority = sample[sample.Attack == 1]
-df_majority_undersample = df_majority.sample(replace = False, n = 144503, random_state = 123)#random_state it's won't shuffle if we run this multiple time
-b_sample = pd.concat([df_majority_undersample, df_minority])
-print(b_sample.Attack.value_counts())
-b_sample.shape
+import matplotlib.pyplot as plt
+fig = plt.figure(figsize = (5,5))
+balanced_sample.fraudulent.value_counts().plot(kind='bar', color= ['blue','green'], alpha = 0.9, rot=0)
+plt.title('Distribution of data based on the Fraudulent of our balanced dataset')
+plt.show()
 ```
 ```py
 fig = plt.figure(figsize = (8,5))
