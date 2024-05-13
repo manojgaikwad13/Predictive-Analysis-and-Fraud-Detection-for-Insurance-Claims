@@ -56,7 +56,7 @@ plt.show()
 
 ###### Result: 
 
-![image](https://github.com/AhamedSahil/CYBER-SECURITY-/assets/164605797/acf581f1-9322-4448-ab43-de832070a2ce)
+![image](https://github.com/manojgaikwad13/Capstone-Project-on-Insurance-Claims/assets/96239993/1fe09a51-a79b-4b88-a0a2-1826df4266f0)
 
 ## Model evaluation:
 #### Logistic Regression Algorithm
