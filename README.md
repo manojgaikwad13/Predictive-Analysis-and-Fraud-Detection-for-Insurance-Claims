@@ -28,6 +28,14 @@ This enables insurers to streamline the claims process, detect fraudulent activi
 
 - Jupyter Lab
 
+- [Datasets Used]Claims1.csv
+- 
+- [Python Script (Code)](cyber_security.ipynb)
+- 
+- [Ppt presentation](sql_prjct.pptx)
+- 
+
+
 
 ## Balancing an unbalanced dataset:
 ```py
