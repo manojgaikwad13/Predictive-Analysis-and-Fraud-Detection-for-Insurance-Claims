@@ -39,18 +39,18 @@ https://github.com/manojgaikwad13/Capstone-Project-on-Insurance-Claims/blob/529c
   
 - Model evaluation: Assess the performance of the models using relevant metrics such as precision, recall, and F1-score.
 
+
 ## Balancing an unbalanced dataset:
 ```py
 import matplotlib.pyplot as plt
-fig = plt.figure(figsize = (5,5))
-balanced_sample.fraudulent.value_counts().plot(kind='bar', color= ['blue','green'], alpha = 0.9, rot=0)
-plt.title('Distribution of data based on the Fraudulent of our balanced dataset')
-plt.show()
+plt.figure(figsize = (3,3))
+Cust_data["fraudulent"].value_counts().plot(kind="bar",color=["red","green"])
 ```
 ```py
-fig = plt.figure(figsize = (8,5))
-b_sample.Attack.value_counts().plot(kind='bar', color= ['blue','green'], alpha = 0.9, rot=0)
-plt.title('Distribution of data based on the Binary attacks of our balanced dataset')
+import matplotlib.pyplot as plt
+fig = plt.figure(figsize = (3,3))
+balanced_sample.fraudulent.value_counts().plot(kind='bar', color= ['red','green'])
+plt.title('Distribution of data based on the Fraudulent of our balanced dataset')
 plt.show()
 ```
 
@@ -59,26 +59,29 @@ plt.show()
 ![image](https://github.com/AhamedSahil/CYBER-SECURITY-/assets/164605797/acf581f1-9322-4448-ab43-de832070a2ce)
 
 ## Model evaluation:
-#### Decision Tree Classifier Model
+#### Logistic Regression Algorithm
 ```py
-ds=DecisionTreeClassifier(max_depth=3)
-ds.fit(x_train,y_train)
-train_pred=ds.predict(x_train)
-test_pred=ds.predict(x_test)
-print(accuracy_score(train_pred,y_train))
-print(accuracy_score(test_pred,y_test))
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, classification_report
+
+model = LogisticRegression()
+model.fit(x_train, y_train)
+train_pred_logi=model.predict(x_train)
+LogisticRegression_Train_Accuracy = accuracy_score(train_pred_logi,y_train)
+print(LogisticRegression_Train_Accuracy)
+print(classification_report(train_pred_logi,y_train))
 ```
 ```py
 #creating list for train test accuracy
-train_test = ['Train','test']
-aucc = [dt_aucc,dt_test] 
-plt.figure(figsize=(8, 4))
+train_test = ['Train','Test']
+aucc = [LogisticRegression_Train_Accuracy,LogisticRegression_Test_Accuracy] 
+plt.figure(figsize=(3, 3))
 # Plot the bar graph
-bars = plt.bar(train_test, aucc, color=['green', 'skyblue'])
+bars = plt.bar(train_test, aucc, color=['red', 'blue'])
 #Add Labels and title 
-plt.xlabel('Decision Tree')
+plt.xlabel('Logistic Regression')
 plt.ylabel('Accuracy')
-plt.title('Accuracy Comparison for train test')
+plt.title('Accuracy Comparison for Train & Test')
 #Show the plot
 plt.show()
 ```
