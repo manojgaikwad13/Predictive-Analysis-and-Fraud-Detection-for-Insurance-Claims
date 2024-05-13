@@ -20,7 +20,7 @@ This enables insurers to streamline the claims process, detect fraudulent activi
 
 - Jupyter Lab
 
-
+[Datasets Used][Claims1.csv](https://github.com/manojgaikwad13/Capstone-Project-on-Insurance-Claims/blob/3d49eed36dad710952b5249aacd6ed8b6b247855/Claims1.csv)
 
 
 ### Features 
