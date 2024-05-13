@@ -12,14 +12,6 @@ By leveraging machine learning, insurers can make data-driven decisions, improvi
 This enables insurers to streamline the claims process, detect fraudulent activities, and allocate resources more efficiently, ultimately benefiting both insurance companies and policyholders.
 
 
-### Features 
-
-- Data preprocessing: Clean and prepare the transactional data for analysis.
-  
-- Supervised learning: Train classification models to classify transactions as fraudulent or legitimate.
-  
-- Model evaluation: Assess the performance of the models using relevant metrics such as precision, recall, and F1-score.
-
   ## Requirements
 
 - Python 3
@@ -28,14 +20,16 @@ This enables insurers to streamline the claims process, detect fraudulent activi
 
 - Jupyter Lab
 
-- [Datasets Used]cust_demographics (1).xlsx,Claims1.csv
-- 
-- [Python Script (Code)](cyber_security.ipynb)
-- 
-- [Ppt presentation](sql_prjct.pptx)
-- 
 
 
+
+### Features 
+
+- Data preprocessing: Clean and prepare the transactional data for analysis.
+  
+- Supervised learning: Train classification models to classify transactions as fraudulent or legitimate.
+  
+- Model evaluation: Assess the performance of the models using relevant metrics such as precision, recall, and F1-score.
 
 ## Balancing an unbalanced dataset:
 ```py
