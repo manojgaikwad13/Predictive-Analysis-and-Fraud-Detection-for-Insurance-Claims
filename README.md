@@ -26,6 +26,7 @@ This enables insurers to streamline the claims process, detect fraudulent activi
 [cust_demographics (1).xlsx]https://github.com/manojgaikwad13/Capstone-Project-on-Insurance-Claims/blob/4739f6dcfb32472bf3f2cd29e2a4ef7b0c2f58b9/cust_demographics%20(1).xlsx
 
 
+
 ### Features 
 
 - Data preprocessing: Clean and prepare the transactional data for analysis.
