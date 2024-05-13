@@ -276,53 +276,19 @@ plt.show()
 
 ![image](https://github.com/AhamedSahil/CYBER-SECURITY-/assets/164605797/37214d65-7a7e-414f-99e8-559f9711e0cf)
 
-### Ensamble Learning bagging Model
 
-```py
-from sklearn.ensemble import BaggingClassifier, BaggingRegressor,RandomForestClassifier,RandomForestRegressor
-from sklearn.ensemble import GradientBoostingClassifier,GradientBoostingRegressor, AdaBoostClassifier, AdaBoostRegressor
-pargrid_ada = {'n_estimators': [5,10,15,20,25,30,35,40]}
-gscv_bagging = GridSearchCV(estimator=BaggingClassifier(), 
-                        param_grid=pargrid_ada, 
-                        cv=5,
-                        verbose=True, n_jobs=-1, scoring='roc_auc')
-gscv_results = gscv_bagging.fit(x_train, y_train)
-gscv_results.best_params_
-gscv_results.best_score_
-ensm_aucc=metrics.roc_auc_score(y_train, pd.DataFrame(gscv_results.predict_proba(x_train))[1])
-print(metrics.roc_auc_score(y_test, pd.DataFrame(gscv_results.predict_proba(x_test))[1]))
-ensm_test=metrics.roc_auc_score(y_test, pd.DataFrame(gscv_results.predict_proba(x_test))[1])
-
-#creating list for train test accuracy
-train_test = ['Train','Test']
-aucc = [ensm_aucc,ensm_test] 
-plt.figure(figsize=(8, 4))
-# Plot the bar graph
-bars = plt.bar(train_test, aucc, color=['green', 'skyblue'])
-#Add Labels and title 
-plt.xlabel('Ensamble Learning Bagging')
-plt.ylabel('Accuracy')
-plt.title('Accuracy Comparison for Train Test')
-#Show the plot
-plt.show()
-
-```
-###### Result:
-
-![image](https://github.com/AhamedSahil/CYBER-SECURITY-/assets/164605797/d6d7f150-c207-41cb-828f-7420452ff6bd)
 
 ##### Compariosion of All The Accuracy of Each Model
 
 ```py
-#Create a bar graph for knn, decision tree, random forest, and logistic regression
-models = ['KNN', 'Decision Tree', 'Random Forest', 'Naive Bayes','Ensemble'] 
-accuracy_values = [knn_aucc, dt_aucc, rf_aucc, naive_aucc,ensm_aucc] 
-plt.figure(figsize=(13, 5))
-# Plot the bar graph
-bars = plt.bar(models, accuracy_values, color=['blue', 'green', 'red', 'orange', 'skyblue'])
+models = ['LogisticRegression', 'DecisionTreeClassifier','RandomForestClassifier', 'KNeighborsClassifier', 'GaussianNB',] 
+accuracy_values = [LogisticRegression_Train_Accuracy, DecisionTreeClassifier_Train_Accuracy,RandomForestClassifier_Train_Accuracy, KNeighborsClassifier_Train_Accuracy, GaussianNB_Train_Accuracy] 
+plt.figure(figsize=(18, 5))
+# # Plot the bar graph
+bars = plt.bar (models, accuracy_values, color=['red', 'blue', 'green', 'orange','black'])
 #Add accuracy values on top of each bar
 plt.bar_label(bars, labels=[f"{acc:.2f}" for acc in accuracy_values])
-#Add Labels and title 
+#Add Labels and title
 plt.xlabel('Models')
 plt.ylabel('Accuracy')
 plt.title('Accuracy Comparison for Different Models')
