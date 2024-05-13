@@ -28,7 +28,8 @@ https://github.com/manojgaikwad13/Capstone-Project-on-Insurance-Claims/blob/529c
 [Python Script (Code)][(Capstone Project_Insurance Claims (1).ipynb)](https://github.com/manojgaikwad13/Capstone-Project-on-Insurance-Claims/blob/ddbe97d81046d1eeb5b3c632fc3e9c354ebd215a/Capstone%20Project_Insurance%20Claims%20(1).ipynb)
 
 
-[Ppt presentation](sql_prjct.pptx)
+[Ppt presentation]([Capstone project ppt.pptx](https://github.com/manojgaikwad13/Capstone-Project-on-Insurance-Claims/blob/d9a6037c3d70f74831c65d83adbe3fc15c0d69a0/Capstone%20project%20ppt.pptx))
+
 
 ### Features 
 
