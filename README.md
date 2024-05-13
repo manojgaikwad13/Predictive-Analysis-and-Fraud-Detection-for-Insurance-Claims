@@ -23,7 +23,8 @@ This enables insurers to streamline the claims process, detect fraudulent activi
 [Datasets Used]
 [Claims1.csv](https://github.com/manojgaikwad13/Capstone-Project-on-Insurance-Claims/blob/3d49eed36dad710952b5249aacd6ed8b6b247855/Claims1.csv)
 
-[Python Script (Code)](Capstone Project_Insurance Claims (1).ipynb)
+[Python Script (Code)][(Capstone Project_Insurance Claims (1).ipynb)](https://github.com/manojgaikwad13/Capstone-Project-on-Insurance-Claims/blob/ddbe97d81046d1eeb5b3c632fc3e9c354ebd215a/Capstone%20Project_Insurance%20Claims%20(1).ipynb)
+
 
 [Ppt presentation](sql_prjct.pptx)
 
