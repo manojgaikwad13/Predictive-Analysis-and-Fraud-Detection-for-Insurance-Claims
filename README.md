@@ -298,5 +298,6 @@ plt.show()
 
 ###### Result:
 
-![image](https://github.com/AhamedSahil/CYBER-SECURITY-/assets/164605797/5fa90674-c1c9-4740-95c2-386dc0657bd9)
+![image](https://github.com/manojgaikwad13/Capstone-Project-on-Insurance-Claims/assets/96239993/88af7d20-36f7-4b1f-b5f6-19ae2efe5cae)
+
 
