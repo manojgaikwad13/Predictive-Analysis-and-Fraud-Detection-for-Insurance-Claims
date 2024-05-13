@@ -88,7 +88,8 @@ plt.show()
 
 ###### Result:
 
-![image](https://github.com/AhamedSahil/CYBER-SECURITY-/assets/164605797/d051c597-d389-417b-b8bd-bb3c28882575)
+![image](https://github.com/manojgaikwad13/Capstone-Project-on-Insurance-Claims/assets/96239993/dbe43900-e056-4186-b878-fd3412818816)
+
 
 #### Building A Decision Tree Classifier plot 
 
