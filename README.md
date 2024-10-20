@@ -80,3 +80,12 @@ plt.show()
 ## Results
 
 ![image](https://github.com/manojgaikwad13/Capstone-Project-on-Insurance-Claims/assets/96239993/88af7d20-36f7-4b1f-b5f6-19ae2efe5cae)
+
+
+**Manoj Gaikwad**  
+[https://www.linkedin.com/in/manojgaikwad13/](https://www.linkedin.com/in/manojgaikwad13/)
+<br>
+[manojgaik2000@gmail.com](mailto:manojgaik2000@gmail.com) <br>
+[Social Media Links (optional)]
+
+*Thank you for reading!*
