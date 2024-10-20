@@ -1,6 +1,9 @@
-# <p align="center"> Capstone-Project-on-Insurance-Claims </p>
+<!DOCTYPE html>
+<html lang="en">
+  
+#<div> <p align="center"> Capstone-Project-on-Insurance-Claims </p> </div>
 
-# <p align="center">![image](https://github.com/manojgaikwad13/Capstone-Project-on-Insurance-Claims/assets/96239993/70b59c6c-3693-4015-a3e2-2bcfb5e48f69)</p>
+<div> <p align="center">![image](https://github.com/manojgaikwad13/Capstone-Project-on-Insurance-Claims/assets/96239993/70b59c6c-3693-4015-a3e2-2bcfb5e48f69)</p> </div>
 
 
 ## Overview
@@ -82,4 +85,4 @@ plt.show()
 
 ![image](https://github.com/manojgaikwad13/Capstone-Project-on-Insurance-Claims/assets/96239993/88af7d20-36f7-4b1f-b5f6-19ae2efe5cae)
 
-
+</html>
